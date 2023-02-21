@@ -17,7 +17,7 @@ export const setupNetwork = async () => {
         params: [
           {
             chainId: `0x${chainId.toString(16)}`,
-            chainName: "POM Chain Testnet",
+            chainName: "POM Chain Mainnet",
             nativeCurrency: {
               name: "POM",
               symbol: "POM",

@@ -49,7 +49,7 @@ const AccountModal = ({ account, logout, onDismiss = () => {} }) => {
             className="view_btn"
             href={`${BASE_BSC_SCAN_URL}/address/${account}`}
           >
-            POMexplorer(testnet)
+            POM Explorer
             <OpenNew />
           </a>
           <button onClick={handleCopy} className="copy_btn">

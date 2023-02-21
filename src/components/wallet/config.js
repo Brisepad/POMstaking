@@ -7,11 +7,10 @@ import BinanceChain from "./icons/BinanceChain";
 import SafePalWallet from "./icons/SafePalWallet";
 
 export const ConnectorNames = {
-    Injected: "injected",
-    WalletConnect: "walletconnect",
-    BSC: "bsc",
-}
-  
+  Injected: "injected",
+  WalletConnect: "walletconnect",
+  BSC: "bsc",
+};
 
 const connectors = [
   {
@@ -53,4 +52,4 @@ const connectors = [
 
 export default connectors;
 
-export const connectorLocalStorageKey = "brisepadconnectorId";
+export const connectorLocalStorageKey = "pomstakingconnectorId";

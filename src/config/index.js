@@ -19,9 +19,9 @@ export const BSC_BLOCK_TIME = 13;
 export const BLOCKS_PER_YEAR = new BigNumber(
   (60 / BSC_BLOCK_TIME) * 60 * 24 * 365
 ); // 10512000
-export const BASE_BSC_SCAN_URL = "https://testnet-explorer.memescan.io";
+export const BASE_BSC_SCAN_URL = "https://memescan.io";
 export const DEFAULT_TOKEN_DECIMAL = BIG_TEN.pow(18);
 export const DEFAULT_GAS_LIMIT = 200000;
 export const DEFAULT_GAS_PRICE = 5;
 export const TESTNET_CHAIN_ID = "97";
-export const MAINNET_CHAIN_ID = "54857";
+export const MAINNET_CHAIN_ID = "18159";

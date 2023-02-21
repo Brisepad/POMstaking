@@ -14,7 +14,7 @@ const Pool = ({ pool, userData, stakedPool, library }) => {
       <div className="brise_img_container">
         <img
           className="brise_img"
-          src={`images/briselogo/brise.png`}
+          src={`images/briselogo/pomprotocol.png`}
           alt="POM"
         />
       </div>

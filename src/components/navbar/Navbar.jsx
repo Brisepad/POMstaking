@@ -69,7 +69,11 @@ const Navbar = () => {
               }
             >
               <h3 id="text_logo">POM PROTOCOL</h3>
-              {/* <img style={{ marginBottom: -5 }} src='/images/briselogo/brise-vertical.png' alt="BrisePad" /> */}
+              {/* <img
+                style={{ marginBottom: -5 }}
+                src="/images/briselogo/pomprotocol.png"
+                alt="POM Protocol"
+              /> */}
             </NavLink>
           </div>
           <div className="gpt3__navbar-links_container">

@@ -26,19 +26,20 @@ const pools = [
 
   {
     sousId: 5,
-    stakingToken: tokens.stakeToken,
-    earningToken: tokens.rewardToken,
+    stakingToken: tokens.ppc,
+    earningToken: tokens.wpom,
     contractAddress: {
       97: "",
       56: "",
       32520: "",
-      54857: "0xb9d9EB19001717320AaAd5eaA636E1620c6C73AB",
+      54857: "",
+      18159: "0xf6C55A94e77D72735286Ff84694D5CF095CA4B59",
     },
     poolCategory: PoolCategory.CORE,
     harvest: true,
     isFinished: false,
     sortOrder: 97,
-    tokenPerBlock: "10",
+    tokenPerBlock: "4.5",
   },
 ];
 
